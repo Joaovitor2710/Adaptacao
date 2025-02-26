@@ -67,7 +67,7 @@ Isso pode ser feito dentro da função `main` no arquivo **`multiFloor2d.py`**.
 
 Inicialmente, o código estará configurado da seguinte forma:  
 
-![Configuração Inicial](Images/config.png)  
+![Configuração Inicial](images/config.png)  
 
 Todos os dados podem ser modificados, incluindo a posição das escadas e o grid. Abaixo estão os principais parâmetros que podem ser ajustados:  
 
@@ -100,7 +100,7 @@ Esta seção explica como interpretar os resultados gerados pelo código.
 
 ### 3.1 Caminhos Gerados pelo DARP Convencional  
 
-![Visualização DARP](Images/DARP.png)  
+![Visualização DARP](images/DARP.png)  
 
 Na imagem acima, cada robô é representado por uma cor diferente, mostrando a melhor trajetória para cobertura do ambiente.  
 
@@ -108,7 +108,7 @@ Na imagem acima, cada robô é representado por uma cor diferente, mostrando a m
 
 ### 3.2 Mapeamento Multi-Andares  
 
-![Visualização MultiAndares](Images/multi.png)  
+![Visualização MultiAndares](images/multi.png)  
 
 Aqui, vemos um andar sendo mapeado pelos robôs. O **coverage** (região azul) é equivalente ao DARP convencional, mas, ao somar os três andares, o algoritmo multi-andares adiciona o **planejamento de trajetória com A*** para a transição entre andares.  
 
@@ -116,7 +116,7 @@ Aqui, vemos um andar sendo mapeado pelos robôs. O **coverage** (região azul) �
 
 ### 3.3 Resultados Finais  
 
-![Visualização Resultados](Images/results.png)  
+![Visualização Resultados]iImages/results.png)  
 
 Após a execução do algoritmo, são apresentados:  
 
@@ -129,7 +129,7 @@ Após a execução do algoritmo, são apresentados:
 
 ### 3.4 Simulação das Escadas  
 
-![Visualização Escada](Images/escada.png)  
+![Visualização Escada](images/escada.png)  
 
 As escadas **não** são diretamente mapeadas no algoritmo, mas sua distância e tempo de processamento são considerados no início da execução. Esses valores podem ser ajustados conforme necessário.  
 
