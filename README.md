@@ -13,10 +13,14 @@ opencv-python==4.5.2.54
 pygame==2.0.1
 scipy==1.7.1
 nose==1.3.7
-scikit-learn==0.24.2
+scikit-learn==0.24.2 
+numpy==1.20
+numba==0.54.1
+pillow==8.4.0
 matplotlib==3.4
-pandas==1.3.3
-seaborn==0.11.2
+pandas==1.3.3 
+psutil
+
 ```
 
 Recomenda-se o uso do pyenv para gerenciar a versão do Python, garantindo a compatibilidade com a versão 3.9. O algoritmo original do DARP apresenta dependências
@@ -43,8 +47,9 @@ pyenv install 3.9
 ### 1.2 Instalar a aplicação
 ```bash
 git clone
-git submodule update --init --recursive
 cd nome
+chmod +x Dependencies.sh
+./Dependencies.sh DARP
 pip install -r requirements.txt
 ```
 
