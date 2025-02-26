@@ -5,7 +5,7 @@ Este repositório contém instruções para baixar e executar os arquivos refere
 ## Requisitos
 
 ### Versão do Python
-- **Python**: 3.9
+- **Python**: 3.9.0
 
 ### Dependências  
 ```bash
@@ -48,6 +48,7 @@ pyenv install 3.9
 ```bash
 git clone https://github.com/Joaovitor2710/Adaptacao.git](https://github.com/Joaovitor2710/Adaptacao-DARP-MultiAndares.git
 cd Adaptacao-DARP-MultiAndares
+pyenv local 3.9.0
 chmod +x Dependencies.sh
 ./Dependencies.sh DARP
 source DARP/bin/activate
