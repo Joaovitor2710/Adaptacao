@@ -41,7 +41,7 @@ pyenv --version
 
 ##### 1.1.1 Instalando a versão 3.9
 ```bash
-pyenv install 3.9
+pyenv install 3.9.0
 ```
 
 ### 1.2 Instalar a aplicação
