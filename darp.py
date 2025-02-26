@@ -102,11 +102,11 @@ class DARP:
         self.notEqualPortions = notEqualPortions
     
 
-        print("\nInitial Conditions Defined:")
+        '''print("\nInitial Conditions Defined:")
         print("Grid Dimensions:", nx, ny)
         print("Number of Robots:", len(self.initial_positions))
         print("Initial Robots' positions", self.initial_positions)
-        print("Portions for each Robot:", self.portions, "\n")
+        print("Portions for each Robot:", self.portions, "\n")'''
 
         self.droneNo = len(self.initial_positions)
         self.A = np.zeros((self.rows, self.cols))
@@ -153,6 +153,8 @@ class DARP:
             print("Portions should be defined for each drone")
             sys.exit(3)
 
+        
+       
         s = sum(portions)
         if abs(s - 1) >= 0.0001:
             print("Sum of portions should be equal to 1.")
@@ -383,4 +385,3 @@ class DARP:
             distRobot = (distRobot - MinV)*(1/(MaxV-MinV))
 
         return distRobot
-
