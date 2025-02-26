@@ -1,3 +1,0 @@
-#!/home/joao/Adaptacao/DARP/bin/python3
-from numba.pycc import main
-main()
