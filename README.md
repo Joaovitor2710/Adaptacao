@@ -46,8 +46,8 @@ pyenv install 3.9
 
 ### 1.2 Instalar a aplicação
 ```bash
-git clone https://github.com/Joaovitor2710/Adaptacao.git
-cd nome
+git clone https://github.com/Joaovitor2710/Adaptacao.git](https://github.com/Joaovitor2710/Adaptacao-DARP-MultiAndares.git
+cd Adaptacao-DARP-MultiAndares
 chmod +x Dependencies.sh
 ./Dependencies.sh DARP
 source DARP/bin/activate
