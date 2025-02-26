@@ -50,6 +50,7 @@ git clone https://github.com/Joaovitor2710/Adaptacao.git
 cd nome
 chmod +x Dependencies.sh
 ./Dependencies.sh DARP
+source DARP/bin/activate
 pip install -r requirements.txt
 ```
 
