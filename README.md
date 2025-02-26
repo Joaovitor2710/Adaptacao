@@ -67,7 +67,7 @@ Isso pode ser feito dentro da função `main` no arquivo **`multiFloor2d.py`**.
 
 Inicialmente, o código estará configurado da seguinte forma:  
 
-![Configuração Inicial](images/config.png)  
+![Configuração Inicial](images/configs.png)  
 
 Todos os dados podem ser modificados, incluindo a posição das escadas e o grid. Abaixo estão os principais parâmetros que podem ser ajustados:  
 
@@ -100,7 +100,8 @@ Esta seção explica como interpretar os resultados gerados pelo código.
 
 ### 3.1 Caminhos Gerados pelo DARP Convencional  
 
-![Visualização DARP](images/DARP.png)  
+![Visualização DARP](images/DARP.png){width=300}
+  
 
 Na imagem acima, cada robô é representado por uma cor diferente, mostrando a melhor trajetória para cobertura do ambiente.  
 
