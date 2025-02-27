@@ -46,7 +46,7 @@ pyenv install 3.9.0
 
 ### 1.2 Instalar a aplicação
 ```bash
-git clone https://github.com/Joaovitor2710/Adaptacao.git](https://github.com/Joaovitor2710/Adaptacao-DARP-MultiAndares.git
+git clone https://github.com/Joaovitor2710/Adaptacao-DARP-MultiAndares.git
 cd Adaptacao-DARP-MultiAndares
 pyenv local 3.9.0
 chmod +x Dependencies.sh
