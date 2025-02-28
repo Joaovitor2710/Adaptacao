@@ -28,7 +28,7 @@ que não foram atualizadas para o Python 10, o que pode gerar conflitos durante 
 
 ## Passos de Configuração
 
-### 1.1 Instalar o Pyenv se não tiver Python 3.9 (Fortemente Recomendado)
+### 1.1 Instalar o Pyenv se não tiver Python 3.9.0 (Fortemente Recomendado)
 
 ```bash
 curl https://pyenv.run | bash
@@ -39,7 +39,7 @@ source ~/.bashrc
 pyenv --version
 ```
 
-##### 1.1.1 Instalando a versão 3.9
+##### 1.1.1 Instalando a versão 3.9.0
 ```bash
 pyenv install 3.9.0
 ```
