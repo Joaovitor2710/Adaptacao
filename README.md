@@ -49,6 +49,7 @@ pyenv install 3.9.0
 ```bash
 git clone https://github.com/Joaovitor2710/Adaptacao-DARP-MultiAndares.git
 cd Adaptacao-DARP-MultiAndares
+# Se você está usando pyenv
 pyenv local 3.9.0
 chmod +x Dependencies.sh
 ./Dependencies.sh DARP
